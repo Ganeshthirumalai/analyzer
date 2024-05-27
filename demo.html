@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGB Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="text-center">SGB Analyzer</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <button id="sortAscendingButton">Sort Ascending</button> <!-- Move the button here -->
+            <table class="table table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Symbol</th>
+                        <th scope="col">Issue Price</th>
+                        <th scope="col">Ask Price</th>
+                        <th scope="col">Maturity Date</th>
+                        <th scope="col">Years to Maturity</th>
+                        <th scope="col">Present Value of Future Interest Payments</th>
+                        <th scope="col">Fair Value</th>
+                        <th scope="col">Avg Traded Volume (7 days - in lakhs)</th>
+                        <th scope="col">Discount to Fair Value</th>
+                        <th scope="col">Discount to Gold Price</th>
+                        <th scope="col">Total Yield to Maturity</th>
+                    </tr>
+                </thead>
+                <tbody id="table_body"></tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <center>
+            <p>&copy; 2024 Sovereign Gold Bonds Analysis</p>
+        </center>
+    </footer>
+
+    <script src="demo.js"></script> <!-- Include your JavaScript file here -->
+</body>
+</html>
+
+
+
+
+
+
+
